@@ -1,0 +1,492 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+body{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    line-height: 24px;
+}
+
+h1, h2, h3, h4, h5, h6{
+    font-family: 'Grand Hotel', cursive;
+    font-size: 14px;
+    line-height: 24px;
+}
+
+img{
+    max-width: 100%;
+    height: auto;
+}
+
+a{
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration: none;
+}
+
+/*global css for title*/
+
+.title{
+	width: 100%;
+	padding: 20px 0px;
+}
+
+.title h1{
+    font-family: 'Grand Hotel', cursive;
+    font-size: 90px;
+    line-height: 100px;
+    font-weight: 600;
+    padding: 0px 0px 5px;
+}
+
+title p{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: 1px; 
+    margin: 10px 0px 15px;
+    color: #999999;
+}
+
+/* header css start */
+.header .fixed-top {
+    width: 100%;
+    background: rgba(0, 0, 0, 0.5);;
+}
+
+.header{
+	width: 100%;
+	padding: 20px 0px;
+	background: url("../images/banner.png") center top no-repeat;
+	background-size: cover;	
+}
+
+.header .navbar-expand-lg .navbar-nav .nav-link{
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 18px;
+    line-height: 26px;
+    text-transform: capitalize;
+    margin: 0px 35px 0px 0px;
+    color: #fff;
+    transition: 1s;
+}
+
+.header .navbar-expand-lg .navbar-nav .nav-link:hover{
+    color: #ffc200;
+}
+
+.header .navbar-expand-lg .navbar-nav .nav-link:focus{
+    color: #ffc200;
+}
+
+.header .navbar-expand-lg .navbar-nav .fa{
+    font-size: 18px;
+    color: #fff;
+    margin: 12px 0px 0px 0px;
+}
+
+.header .banner{
+	width: 100%;
+	padding: 150px 0px;
+}
+
+.header .banner .inner-banner{
+	width: 100%;
+	padding: 20px 0px 0px;
+}
+
+.header .banner .inner-banner h2{
+    font-family: 'Grand Hotel', cursive !important;
+    font-size: 70px;
+    line-height: 80px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #ffc200;
+}
+
+.header .banner .inner-banner h1{
+    font-size: 90px;
+    line-height: 100px;
+    letter-spacing: 2px;
+    margin: 15px 0px 0px;
+    color: #fff;
+}
+
+.header .banner .inner-banner p{
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: 1px;
+    margin: 10px 0px 15px;
+    color: #999999;
+}
+
+.header .banner .double-button .btn-primary{
+    padding: 10px 20px;
+    margin: 10px 20px 0px 0px;
+    font-size: 14px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: #111;
+    background: #ffc200;
+    border: 1px solid #ffc200;
+    transition: 1s;
+}
+
+.header .banner .double-button .btn-primary:hover{
+    color: #fff;
+    background: transparent;
+    border: 1px solid #ffc200;
+}
+
+.header .banner .double-button .btn-primary:focus{
+    color: #fff;
+    background: transparent;
+    border: 1px solid #ffc200;
+}
+/* header css end */
+
+/* seller css start */
+
+.seller{
+    width: 100%;
+    padding: 80px 0px;
+}
+
+.seller h1{
+    text-align: center;
+    color: #333333;
+    margin: 0px 0px 20px;
+}
+
+.seller .title p{
+    text-align: center;
+    line-height: 20px;
+    letter-spacing: 1px;
+    margin: 10px 0px 15px;
+}
+
+.seller .card{
+    width: 100%;
+    padding: 30px;
+    background: #fff;
+    box-shadow: 0px 10px 40px rgba(0, 0, 0, 0.1);
+    border-radius: 18px;
+    border: 1px solid #ffc200;
+}
+
+.seller .card .card-body .card-title{
+    text-align: center;
+    font-size: 45px;
+    line-height: 55px;
+    font-weight: 600;
+    color: #333333;
+    text-transform: capitalize;
+    margin: 0px;
+}
+
+.seller .card .card-body .card-text{
+    text-align: center;
+    font-size: 14px;
+    line-height: 24px;
+    color: #333333;
+}
+/* seller css end */
+
+/* oriental css start */
+.oriental{
+    width: 100%;
+	padding: 50px 0px;
+	background: url("../images/Content.png") center top no-repeat;
+	background-size: cover;
+}
+
+.oriental .img-fluid{
+    padding: 120px 0px 0px;
+}
+
+.oriental .title{
+    padding: 280px 0px 0px 100px;
+}
+
+.oriental .title h1{
+    margin: 10px 0px 0px;
+    color: #ffc200;
+}
+
+.oriental .title p{
+    color: #fff;
+    line-height: 20px;
+    letter-spacing: 1px;
+    margin: 10px 0px 15px;
+}
+
+.oriental .double-button .btn-primary{
+    padding: 10px 20px;
+    margin: 20px 30px 0px 0px;
+    font-size: 14px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: #111;
+    background: #ffc200;
+    border: 1px solid #ffc200;
+    transition: 1s;
+}
+
+.oriental .double-button .btn-primary:hover{
+    color: #fff;
+    background: transparent;
+    border: 1px solid #ffc200;
+}
+
+.oriental .double-button .btn-primary:focus{
+    color: #fff;
+    background: transparent;
+    border: 1px solid #ffc200;
+}
+/* oriental css end */
+
+/* statistics css start */
+.statistics{
+    width: 100%;
+    padding: 60px 0px 40px 0px;
+    background: url("../images/Statistics.png") center top no-repeat;
+	background-size: cover;
+}
+
+.statistics .title{
+    text-align: center;
+    padding: 20px 0px 15px 0px;
+}
+
+.statistics .title h1{
+    margin: 10px 0px 0px;
+    color: #ffc200;
+}
+
+.statistics .title p{
+    color: #fff;
+    line-height: 20px;
+    letter-spacing: 1px;
+    margin: 10px 0px 50px;
+}
+/* animated counter css start */
+.inner-fun{
+    width: 200px;
+    height: 200px;
+    border-radius: 100%;
+    padding: 40px;
+    text-align: center;
+    border: 5px solid #fff;
+    margin: 0px 40px 20px;
+}
+
+.inner-fun h1{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 50px;
+    font-weight: 700;
+    color: #ffc200;
+}
+
+.inner-fun h4{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    color: #fff;
+}
+/* animated counter css end */
+
+/* statistics css end */
+
+/* chicken grill css start */
+.chicken{
+    width: 100%;
+	padding: 40px 0px;
+	background: url("../images/Design.png") center top no-repeat;
+    margin: -300px 0px 0px;
+	background-size: cover;	
+}
+
+.chicken .title{
+    padding: 450px 0px 0px 0px;
+}
+
+.chicken .title h1{
+    margin: 10px 0px 0px;
+    color: #ffc200;
+}
+
+.chicken .title p{
+    color: #fff;
+    line-height: 20px;
+    letter-spacing: 1px;
+    margin: 10px 0px 15px;
+}
+
+.chicken .double-button .btn-primary{
+    padding: 10px 20px;
+    margin: 20px 30px 0px 0px;
+    font-size: 14px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: #111;
+    background: #ffc200;
+    border: 1px solid #ffc200;
+    transition: 1s;
+}
+
+.chicken .double-button .btn-primary:hover{
+    color: #fff;
+    background: transparent;
+    border: 1px solid #ffc200;
+}
+
+.chicken .double-button .btn-primary:focus{
+    color: #fff;
+    background: transparent;
+    border: 1px solid #ffc200;
+}
+
+.chicken .img-fluid{
+    padding: 420px 0px 0px 30px;
+}
+/* chicken grill css end */
+
+/* contact css start */
+.contact{
+    width: 100%;
+    padding: 100px 0px 120px 0px;
+    background: url("../images/Design2.png") center top no-repeat;
+    background-size: cover;
+}
+
+.contact .title{
+    width: 100%;
+    padding: 0px 0px 80px;
+    text-align: center;
+}
+
+.contact .title h1{
+    font-family: 'Grand Hotel', cursive;
+    font-size: 90px;
+    line-height: 100px;
+    font-weight: 600;
+    padding: 0px 0px 5px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #111;
+    margin: 40px 0px 0px;
+}
+
+.contact .title h2{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 70px;
+    font-weight: 600;
+    line-height: 80px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #111;
+}
+
+.contact .form-control{
+    padding: 15px;
+    background: transparent;
+    border: 2px solid #ffc200;
+    font-size: 14px;
+    font-weight: 300;
+    text-transform: uppercase;
+    color: #111;
+}
+
+.contact .btn-primary {
+    font-family: 'Alfa Slab One', cursive !important;
+    display: block;
+    padding: 15PX 40px;
+    background: #ffc200;
+    border: 2px solid #ffc200;
+    color: #111;
+    font-size: 14px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.contact .btn-primary:hover{
+    background: transparent;
+    color: #111;
+    border: 2PX solid #ffc200;
+}
+/* contact section end */
+
+/* footer code start */
+
+.footer{
+    width: 100%;
+    padding: 80px 0px 10px;
+    background: #282531;
+}
+
+.footer .widget-footer{
+    width: 100%;
+}
+
+.footer .widget-footer h3{
+    color: #fff;
+}
+
+.footer .widget-footer p{
+    font-size: 16px;
+    line-height: 26px;
+    font-weight: 400;
+    color: #fff;
+}
+
+.footer .widget-footer ul{
+    display: block;
+    width: 100%;
+    padding: 0px;
+    margin: 0px;
+}
+
+.footer .widget-footer ul li{
+    list-style: none;
+}
+
+.footer .widget-footer ul li a{
+    display: block;
+    text-decoration: none;
+    font-size: 16px;
+    line-height: 26px;
+    font-weight: 300;
+    color: #fff;
+    margin: 0px 0px 5px;   
+}
+
+.footer .widget-footer ul li a:hover{
+    color: #ffc200;
+}
+
+.footer .widget-footer ul li .active{
+    font-weight: 700;
+}
+
+.footer .main-footer{
+    width: 100%;
+    padding: 40px 0px 0px;
+    text-align: center;
+}
+
+.footer .main-footer p{
+    font-size: 16px;
+    line-height: 26px;
+    font-weight: 400;
+    color: #fff;
+    margin: 0px;
+}
+/* footer code end */
